@@ -8,6 +8,10 @@
 
 body {
     background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
 }
 
 header {
@@ -39,6 +43,11 @@ main {
     padding: 15px 20px;
     background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 50px;
+    transition: .3s;
+}
+
+.category:hover {
+    opacity: .9;
 }
 
 .category > h2 {
